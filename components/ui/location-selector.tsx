@@ -282,7 +282,7 @@ export default function LocationSelector({
       {value.countryCode && (
         <div>
           <Label htmlFor="state" className="text-sm font-medium">
-            {value.country === "United States" ? "State" : "State/Province"} *
+            {value.country === "Pakistan" ? "State" : "State/Province"} *
           </Label>
           <Select
             value={value.stateCode}
@@ -380,12 +380,12 @@ export default function LocationSelector({
       {value.country && (
         <div>
           <Label htmlFor="zipcode" className="text-sm font-medium">
-            {value.country === "United States" ? "ZIP Code" : "Postal Code"} *
+            {value.country === "Pakistan" ? "ZIP Code" : "Postal Code"} *
           </Label>
           <Input
             id="zipcode"
             placeholder={
-              value.country === "United States"
+              value.country === "Pakistan"
                 ? "Enter ZIP code (e.g., 12345)"
                 : "Enter postal code"
             }
