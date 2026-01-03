@@ -462,10 +462,11 @@ const AdminAnalytics = () => {
                       <Tooltip
                         formatter={(value, name) => [
   name === "revenue"
-    ? `$${(value as number).toLocaleString()}`
-    : value ?? 0,
+    ? `$${Number(value ?? 0).toLocaleString()}`
+    : Number(value ?? 0),
   name === "revenue" ? "Revenue" : "Sales",
 ]}
+
 
                       />
                       <Bar dataKey="revenue" fill="#10B981" name="revenue" />
