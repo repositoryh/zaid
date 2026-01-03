@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ShoppingCart } from "lucide-react";
+import { AD7STORE } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface Props {
