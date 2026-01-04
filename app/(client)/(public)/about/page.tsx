@@ -57,7 +57,7 @@ const AboutPage = () => {
 
   const team = [
     {
-      name: "Choudhary Adnan",
+      name: "Ishtiaq Malik",
       role: "CEO & Founder",
       image: "https://files.catbox.moe/gkrf8l.jpg",
       description: "Visionary leader with 4+ years in e-commerce",
@@ -90,7 +90,7 @@ const AboutPage = () => {
               Est. 2026
             </Badge>
             <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-              About AD7STORE
+              About IAEngineering 
             </h1>
             <p className="text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
               We&apos;re revolutionizing online shopping with curated products,
