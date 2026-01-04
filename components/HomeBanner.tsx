@@ -37,7 +37,7 @@ const HomeBanner = async () => {
                 <Title className="text-shop_dark_green font-bold text-4xl sm:text-5xl leading-tight animate-fadeInUp delay-200">
                   <span className="block">Grab Up to</span>
                   <span className="block bg-gradient-to-r from-shop_light_green to-shop_dark_green bg-clip-text text-transparent animate-shimmer">
-                    50% Off At AD7STORE.COM
+                    50% Off At IA Engineering Works
                   </span>
                   <span className="block text-2xl font-medium text-gray-700">
                     on Selected Products
