@@ -36,10 +36,10 @@ const Logo = ({ className, variant = "default" }: Props) => {
           )}
         >
           <span className="text-shop_dark_green group-hover:text-shop_light_green hoverEffect">
-            IA
+            I 
           </span>
           <span className="bg-gradient-to-r from-shop_light_green to-shop_orange bg-clip-text text-transparent group-hover:from-shop_dark_green group-hover:to-shop_light_green hoverEffect">
-            Engineering Works
+            A
           </span>
         </h1>
 
